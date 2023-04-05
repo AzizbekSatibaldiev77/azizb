@@ -1,0 +1,60 @@
+.envelop{
+    margin: 150px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+}
+.back{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(195, 87, 87);
+    border-radius: 50px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 65px;
+    z-index: 0;
+}
+.gap{
+    margin-left: 170px;
+    margin-top: 40px;
+    border: 2px solid red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.paper{
+    width: 360px;
+    height: 380px;
+    position: absolute;
+    background-color: white;
+    left: 10px;
+    top: 210px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    z-index: 1;
+    transition: all 1s;
+}
+.left{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(184, 63, 63);
+    transform: rotate(30deg);
+    position: absolute;
+    top: 255px;
+    left: -180px;
+    z-index: 2;
+}
+.right{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(165, 44, 44);
+    transform: rotate(60deg);
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    z-index: 2;
+}
+
+.envelop:hover .paper{
+    top: 40px;
+}
